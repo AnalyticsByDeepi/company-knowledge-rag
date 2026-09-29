@@ -92,3 +92,59 @@ Grounded Answer
 Document / Page / Section Citations
           ↓
 Streamlit UI
+
+## 🧪 Hallucination and Safety Testing
+
+The RAG assistant was tested to verify that it does not generate unsupported answers when information is outside the company policy documents.
+
+### Test Categories
+
+- Out-of-scope questions
+- Grounded policy questions
+- Prompt-injection attempts
+
+### Test Results
+
+A total of 5 hallucination and safety test cases were performed.
+
+| Test Category | Tests | Result |
+|---|---:|---|
+| Out-of-scope | 2 | PASS |
+| Grounded policy question | 1 | PASS |
+| Prompt injection | 2 | PASS |
+| **Total** | **5** | **5 PASS** |
+
+The detailed test results are available in:
+
+`hallucination_test_report.csv`
+
+The assistant is designed to respond with:
+
+> "I couldn't find this information in the company policies."
+
+when relevant information cannot be found in the indexed company policy documents.
+
+---
+
+## ⚠️ Known Limitations
+
+1. The system can answer only questions supported by the six indexed company policy documents.
+2. The current application uses preloaded policy PDFs rather than providing document upload through the Streamlit interface.
+3. Retrieval quality depends on the quality and completeness of the source documents.
+4. The system uses a fixed retrieval configuration (`top_k=5` and a distance threshold).
+5. The generated answer depends on the retrieved context supplied to the language model.
+6. The current evaluation dataset contains a limited number of test questions.
+7. Changes to policy documents require the documents to be processed and the vector store to be regenerated.
+
+---
+
+## 🚀 Future Improvements
+
+- Add document upload functionality to the Streamlit application.
+- Support additional document formats such as DOCX, TXT, CSV and PPTX.
+- Add automatic document re-indexing when policies are updated.
+- Expand the evaluation dataset with more questions and edge cases.
+- Add user authentication and role-based access control.
+- Add conversation history for multi-turn questions.
+- Improve retrieval using hybrid search and reranking.
+- Add monitoring and logging for production usage.
