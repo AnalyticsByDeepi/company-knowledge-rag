@@ -1,0 +1,167 @@
+question,expected_document,document_retrieved,keyword_score,matched_keywords,answer
+How much can an employee claim for accommodation during business travel?,Travel Policy,True,1.0,"5,000, 3,500","For approved domestic business travel, the accommodation reimbursement limits are as follows:
+
+*   **Tier-1 cities:** ₹5,000 per night
+*   **Tier-2 cities:** ₹3,500 per night
+
+Employees must select accommodation that is appropriate for the business purpose and within these limits. Expenses exceeding the applicable limit require prior exception approval. Original receipts must be retained and submitted where required.
+
+**Source:** Travel Policy, Page 3, Section 3. Accommodation Reimbursement"
+How much can an employee claim for food during business travel?,Travel Policy,True,1.0,"1,000","The standard domestic daily food allowance for eligible business travel is **₹1,000 per day**. This allowance is intended to cover reasonable food expenses. Employees should not claim the same expense twice through both the daily allowance and individual reimbursement unless explicitly permitted.
+
+**Source:** Travel Policy, Page 3, Section 3. Accommodation Reimbursement (Subsection 4. Food and Daily Allowance)"
+What is the local transportation reimbursement limit?,Travel Policy,True,1.0,800,"The local transportation reimbursement limit for approved business travel is **₹800 per day** at actuals. Employees must use reasonable transportation and retain supporting receipts. Personal transportation expenses unrelated to company business are not reimbursable.
+
+**Source:** Travel Policy, Page 4, Section 5. Air Travel Eligibility (Subsection 6. Local Transportation)"
+What is the medical insurance sum assured?,Medical Policy,True,1.0,"3,00,000","The group health insurance sum assured is **₹3,00,000 per employee per year**. This coverage is subject to the applicable policy terms, exclusions, limits, and claim conditions.
+
+**Source:** Medical Policy, Page 3, Section 3. Sum Assured and Coverage"
+What is the OPD reimbursement limit?,Medical Policy,True,1.0,"10,000","The OPD (Out-Patient Department) reimbursement limit is **₹10,000 per year** for eligible employees. Please note that out-patient expenses are not covered under the standard group insurance programme; this is a separate allowance provided by NovaTech. Supporting bills and documents may be required for claims.
+
+**Source:** Medical Policy, Page 5, Section 7. OPD and Medical Claims"
+What is the annual leave entitlement for employees?,Leave Policy,True,1.0,annual,"Based on the retrieved company policies, eligible NovaTech employees have the following annual leave entitlements:
+
+*   **Casual Leave:** 12 days per calendar year. This leave is intended for short-duration personal requirements and cannot be carried forward to the next year.
+*   **Earned Leave:** 15 days per year. This leave is intended for planned personal time, vacations, or extended periods away from work. Unused Earned Leave may be carried forward, up to a maximum balance of 30 days.
+
+**Sources:**
+*   Document: Leave Policy, Page 2, Section 2. Casual Leave
+*   Document: Leave Policy, Page 3, Section 3. Earned Leave
+*   Document: Employee Handbook, Page 4, Section 5. Leave Entitlements Overview"
+What should an employee do when taking leave?,Leave Policy,True,1.0,leave,"Based on the retrieved company policies, an employee should follow these procedures when taking leave:
+
+**1. Application Process**
+*   **Planned Leave:** Submit the application through the HRMS portal at least **two days in advance**. You must select the appropriate leave category and provide accurate dates and any required supporting information.
+*   **Emergency Leave:** Communicate the need for leave to your manager as soon as possible and subsequently record it in the HRMS system.
+*   **Approval:** Obtain manager approval where required.
+*   **Documentation:** Provide medical documentation when applicable.
+
+*(Source: Leave Policy, Page 4, Section 5. Maternity and Paternity Leave / Content under ""6. Leave Application Procedure"")*
+
+**2. Specific Requirements for Sick Leave**
+*   **Notification:** Notify your manager as soon as reasonably possible.
+*   **Medical Certificate:** A medical certificate is required if you take **more than three consecutive days** of Sick Leave.
+
+*(Source: Leave Policy, Page 3, Section 3. Earned Leave / Content under ""4. Sick Leave"")*
+
+**3. General Eligibility**
+*   These procedures apply to regular employees unless a separate employment agreement or applicable law provides different entitlements.
+
+*(Source: Leave Policy, Page 2, Section 1. Purpose and Scope)*"
+What should an employee do if their company laptop is lost?,IT Policy,True,1.0,"report, immediately","If an employee loses their company laptop, they must **report the lost device immediately** to the IT Security or designated IT incident-response team.
+
+Additionally, employees should not attempt to hide, delete, or manipulate any evidence related to the incident.
+
+**Sources:**
+*   Document: It Policy, Page: 5, Section: 7. IT Support Request Process (Source 1)
+*   Document: It Policy, Page: 5, Section: 7. IT Support Request Process (Source 2)"
+How should a suspected IT security incident be reported?,IT Policy,True,1.0,"IT, Security","To report a suspected IT security incident, you must follow these steps:
+
+1.  **Report Immediately:** You must report the incident immediately to the IT Security team or the designated IT incident-response team.
+2.  **Use the Correct Channel:** Urgent security incidents should be reported through the designated security or IT incident channel, rather than waiting for a routine IT support ticket response.
+3.  **Preserve Evidence:** Do not attempt to hide, delete, or manipulate any evidence related to the suspected security incident.
+
+**Sources:**
+*   Document: It Policy, Page: 5, Section: 7. IT Support Request Process (Data Breach Reporting)
+*   Document: It Policy, Page: 5, Section: 7. IT Support Request Process (IT Support Request Process)"
+What are the expectations for employee conduct?,Code Of Conduct,True,1.0,conduct,"Based on the retrieved company policies, the expectations for employee conduct are as follows:
+
+**General Standards**
+*   Employees are expected to act **honestly, respectfully, and responsibly**.
+*   Employees must protect **company and customer interests**.
+*   These standards apply while performing company work and representing the organization.
+    *   *Source: Code Of Conduct, Page 2, Section 1. Purpose*
+
+**Professional Behaviour**
+*   Employees must treat colleagues, customers, partners, and other stakeholders with **dignity and respect**.
+*   **Prohibited behaviours** include harassment, discrimination, intimidation, threats, and abusive workplace behaviour.
+*   Employees must use **professional communication** in all work-related channels, including company systems, meetings, email, and messaging platforms.
+*   Specific expectations include:
+    *   Treating colleagues with respect.
+    *   Avoiding harassment and discriminatory behaviour.
+    *   Using professional language.
+    *   Following applicable workplace procedures.
+    *   *Source: Code Of Conduct, Page 2, Section 1. Purpose*
+
+**Policy Awareness**
+*   Employees are responsible for familiarizing themselves with policies relevant to their role.
+*   Employees should use the latest approved version of policies provided through official company channels.
+    *   *Source: Employee Handbook, Page 5, Section 7. Grievance Redressal*"
+What should employees do with confidential company information?,Code Of Conduct,True,1.0,confidential,"Based on the retrieved company policies, employees must adhere to the following guidelines regarding confidential company information:
+
+1.  **Protection and Access:** Employees must protect confidential company, customer, employee, and partner information. This information may only be accessed or shared for legitimate business purposes. Unauthorised disclosure may result in disciplinary action and legal or contractual consequences.
+    *   *Source: Code Of Conduct, Page 4, Section 5. Confidentiality*
+
+2.  **Handling and Storage:** Company and customer information must be handled according to its sensitivity and applicable security requirements. Sensitive information should only be accessed by authorised employees for legitimate business purposes. Employees must not transfer confidential information to unauthorised personal accounts, storage services, or devices.
+    *   *Source: It Policy, Page 3, Section 3. Password Security (Content labeled ""4. Data Security"")*
+
+3.  **Social Media:** Employees should not disclose confidential company information, customer data, security information, or internal documents through personal social media accounts.
+    *   *Source: Code Of Conduct, Page 4, Section 5. Confidentiality (Content labeled ""6. Social Media"")*
+
+4.  **Remote Access:** When working outside company premises, employees should avoid accessing confidential systems through untrusted networks and must follow IT security instructions.
+    *   *Source: It Policy, Page 4, Section 5. Software Installation (Content labeled ""6. Remote Access"")*
+
+5.  **Incident Reporting:** If an employee suspects a data breach, accidental disclosure, or other security incident involving confidential information, they must report it immediately to the IT Security or designated IT incident-response team. Employees should not attempt to hide, delete, or manipulate evidence related to such incidents.
+    *   *Source: It Policy, Page 5, Section 7. IT Support Request Process (Content labeled ""8. Data Breach Reporting"")*"
+What information is covered by the employee handbook?,Employee Handbook,True,1.0,employee,"Based on the retrieved context, the Employee Handbook covers the following information:
+
+*   **Employee Onboarding:** This includes the onboarding programme covering company values, employment procedures, information security, acceptable technology use, and key HR policies. It also outlines required activities such as completing HR documentation, security awareness training, reviewing policies, and obtaining credentials/equipment. (Source: Employee Handbook, Page 3, Section 3. Employee Onboarding)
+*   **Benefits Overview:** Eligible employees may receive benefits including group health insurance, leave entitlements, professional development support, and business travel reimbursements, subject to applicable policies. (Source: Employee Handbook, Page 3, Section 3. Employee Onboarding)
+*   **Grievance Redressal and Policy Awareness:** Employees are responsible for familiarizing themselves with policies relevant to their role and using the latest approved versions. Questions about policy interpretation should be directed to responsible functions such as HR, IT, Finance, Compliance, or Information Security. (Source: Employee Handbook, Page 5, Section 7. Grievance Redressal)
+
+Note: The Code of Conduct (Source 1) is a separate document referenced in the context but is not part of the Employee Handbook itself."
+What are the general responsibilities of employees?,Employee Handbook,True,1.0,employee,"Based on the retrieved company policies, the general responsibilities of employees include the following:
+
+**1. Upholding Company Values and Professional Behavior**
+*   Employees are expected to make decisions that support NovaTech’s core values, including integrity, customer focus, collaboration, inclusion, continuous learning, and responsible use of technology.
+*   Employees must treat colleagues, customers, partners, and stakeholders with dignity and respect.
+*   Harassment, discrimination, intimidation, threats, and abusive workplace behavior are prohibited.
+*   Employees must use professional language and communication in all company systems, meetings, emails, and messaging platforms.
+*   Employees are responsible for the responsible handling of company information.
+    *   *Source: Employee Handbook, Page 2, Section 1. Company Values; Code Of Conduct, Page 2, Section 1. Purpose*
+
+**2. Policy Awareness and Compliance**
+*   Employees are responsible for familiarizing themselves with policies relevant to their specific role.
+*   Employees must use the latest approved version of policies provided through official company channels, as policies may be updated periodically.
+*   Questions regarding policy interpretation should be directed to the responsible company function (e.g., HR, IT, Finance, Compliance, or Information Security).
+    *   *Source: Employee Handbook, Page 5, Section 7. Grievance Redressal (Policy Awareness)*
+
+**3. Onboarding and Security Obligations**
+*   New employees must complete the onboarding program, which covers company values, employment procedures, information security, acceptable technology use, and key HR policies.
+*   Employees are expected to complete required onboarding activities within the timelines communicated by HR.
+*   Specific onboarding tasks include:
+    *   Completing HR documentation.
+    *   Completing required security awareness training (access to certain systems may depend on this).
+    *   Reviewing applicable employee policies.
+    *   Obtaining company credentials and equipment through approved processes.
+    *   *Source: Employee Handbook, Page 3, Section 3. Employee Onboarding*
+
+**4. Raising Concerns and Grievances**
+*   Employees should raise concerns when they identify behavior that may create a conflict with company values, legal obligations, or internal policy.
+*   Employees with workplace concerns may raise the matter with their manager, HR representative, or designated grievance channel.
+*   When raising a concern, employees are encouraged to provide factual information and supporting documentation.
+    *   *Source: Employee Handbook, Page 2, Section 1. Company Values; Employee Handbook, Page 5, Section 7. Grievance Redressal*"
+What are the rules for appropriate use of company IT resources?,IT Policy,True,1.0,IT,"Based on the retrieved company policies, the rules for the appropriate use of company IT resources are as follows:
+
+*   **Primary Use:** Company devices must be used primarily for authorized business purposes.
+*   **Personal Use:** Limited personal use is permitted only if it does not interfere with work, create security risks, or violate company policy.
+*   **Prohibited Activities:** Employees must not use company devices for:
+    *   Unlawful activity
+    *   Unauthorized access
+    *   Malicious software
+    *   Activities that could harm company systems
+*   **Data Handling:** Company and customer information must be handled according to its sensitivity. Sensitive information should only be accessed by authorized employees for legitimate business purposes. Employees must not transfer confidential information to unauthorized personal accounts, storage services, or devices.
+*   **Remote Access:** When accessing company resources remotely, employees must use approved remote-access mechanisms and follow authentication requirements. Employees should avoid accessing confidential systems through untrusted networks and must follow IT security instructions when working outside company premises.
+*   **General Responsibility:** Employees are responsible for protecting company technology and reporting security incidents promptly.
+
+**Sources:**
+*   Document: It Policy, Page 2, Section 1. Purpose and Scope
+*   Document: It Policy, Page 2, Section 2. Acceptable Use of Company Devices
+*   Document: It Policy, Page 3, Section 4. Data Security
+*   Document: It Policy, Page 4, Section 6. Remote Access"
+What approval is required for expenses exceeding travel limits?,Travel Policy,True,1.0,approval,"Based on the retrieved company policies, expenses that exceed the applicable travel limits require **prior exception approval**.
+
+**Source:**
+*   Document: Travel Policy
+*   Page: 3
+*   Section: 3. Accommodation Reimbursement"

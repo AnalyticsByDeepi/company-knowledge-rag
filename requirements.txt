@@ -1,0 +1,13 @@
+streamlit
+sentence-transformers
+faiss-cpu
+numpy
+pandas
+PyMuPDF
+groq
+python-dotenv
+langchain
+langchain-community
+langchain-core
+langchain-ollama
+ipykernel
